@@ -264,8 +264,8 @@ importers:
         specifier: 6.21.1
         version: 6.21.1
       uuid:
-        specifier: 11.0.5
-        version: 11.0.5
+        specifier: 11.1.0
+        version: 11.1.0
       winston:
         specifier: 3.17.0
         version: 3.17.0
@@ -1647,16 +1647,16 @@ packages:
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
 
-  '@nolyfill/safe-buffer@1.0.41':
-    resolution: {integrity: sha512-QUutoN6a0Rf49n6kYVSppQpfraXfrtrUaxTU/GhcxIhz+3GHp+SrBVnTKE3ASB7AzgZJ7XrxhaBgwrF+hSmeKg==}
+  '@nolyfill/safe-buffer@1.0.44':
+    resolution: {integrity: sha512-SqlKXtlhNTDMeZKey9jnnuPhi8YTl1lJuEcY9zbm5i4Pqe79UJJ8IJ9oiD6DhgI8KjYc+HtLzpQJNRdNYqb/hw==}
     engines: {node: '>=12.4.0'}
 
-  '@nolyfill/safer-buffer@1.0.41':
-    resolution: {integrity: sha512-RieuhcNjFpL2NObzKlsNGM5rCan1y2PH3KUUJ01Yhxqj4gTB20WplufPmQRSrLdI9BWf8cBrxvXuRtjvMRKzxQ==}
+  '@nolyfill/safer-buffer@1.0.44':
+    resolution: {integrity: sha512-Ouw1fMwjAy1V4MpnDASfu1DCPgkP0nNFteiiWbFoEGSqa7Vnmkb6if2c522N2WcMk+RuaaabQbC1F1D4/kTXcg==}
     engines: {node: '>=12.4.0'}
 
-  '@nolyfill/side-channel@1.0.29':
-    resolution: {integrity: sha512-nqk0vlqUL0wmmoPrm2HqDi0KXGy+jTNHlH/oSx7jsrh2rEApSy1mactsSUGWnhuz2ZsngJSrVHWZIaJKi3WUNA==}
+  '@nolyfill/side-channel@1.0.44':
+    resolution: {integrity: sha512-y3SvzjuY1ygnzWA4Krwx/WaJAsTMP11DN+e21A8Fa8PW1oDtVB5NSRW7LWurAiS2oKRkuCgcjTYMkBuBkcPCRg==}
     engines: {node: '>=12.4.0'}
 
   '@notionhq/client@2.2.16':
@@ -6276,8 +6276,8 @@ packages:
     resolution: {integrity: sha512-6Z7Ma2aVEWisaL6TvBCy7P8rm2LQoPv6dJ7ecIaIixHcwfbJ0x7mWdbcwlIM5IGQxPZSFYeqRCqlOOeKoJYMkw==}
     engines: {node: '>= 4'}
 
-  uuid@11.0.5:
-    resolution: {integrity: sha512-508e6IcKLrhxKdBbcA2b4KQZlLVp2+J5UwQ6F7Drckkc5N9ZJwFa4TgWtsww9UG8fGHbm6gbV19TdM5pQ4GaIA==}
+  uuid@11.1.0:
+    resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
     hasBin: true
 
   uuid@3.4.0:
@@ -7962,11 +7962,11 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@nolyfill/safe-buffer@1.0.41': {}
+  '@nolyfill/safe-buffer@1.0.44': {}
 
-  '@nolyfill/safer-buffer@1.0.41': {}
+  '@nolyfill/safer-buffer@1.0.44': {}
 
-  '@nolyfill/side-channel@1.0.29': {}
+  '@nolyfill/side-channel@1.0.44': {}
 
   '@notionhq/client@2.2.16':
     dependencies:
@@ -8131,7 +8131,7 @@ snapshots:
 
   '@postman/tunnel-agent@0.6.4':
     dependencies:
-      safe-buffer: '@nolyfill/safe-buffer@1.0.41'
+      safe-buffer: '@nolyfill/safe-buffer@1.0.44'
 
   '@protobufjs/aspromise@1.1.2': {}
 
@@ -9184,7 +9184,7 @@ snapshots:
 
   asn1@0.2.6:
     dependencies:
-      safer-buffer: '@nolyfill/safer-buffer@1.0.41'
+      safer-buffer: '@nolyfill/safer-buffer@1.0.44'
 
   assert-plus@1.0.0: {}
 
@@ -9862,11 +9862,11 @@ snapshots:
   ecc-jsbn@0.1.2:
     dependencies:
       jsbn: 0.1.1
-      safer-buffer: '@nolyfill/safer-buffer@1.0.41'
+      safer-buffer: '@nolyfill/safer-buffer@1.0.44'
 
   ecdsa-sig-formatter@1.0.11:
     dependencies:
-      safe-buffer: '@nolyfill/safe-buffer@1.0.41'
+      safe-buffer: '@nolyfill/safe-buffer@1.0.44'
 
   editorconfig@1.0.4:
     dependencies:
@@ -10449,7 +10449,7 @@ snapshots:
       combined-stream: 1.0.8
       es-set-tostringtag: 2.1.0
       mime-types: 2.1.35
-      safe-buffer: '@nolyfill/safe-buffer@1.0.41'
+      safe-buffer: '@nolyfill/safe-buffer@1.0.44'
 
   form-data@4.0.2:
     dependencies:
@@ -10961,15 +10961,15 @@ snapshots:
 
   iconv-lite@0.4.24:
     dependencies:
-      safer-buffer: '@nolyfill/safer-buffer@1.0.41'
+      safer-buffer: '@nolyfill/safer-buffer@1.0.44'
 
   iconv-lite@0.5.0:
     dependencies:
-      safer-buffer: '@nolyfill/safer-buffer@1.0.41'
+      safer-buffer: '@nolyfill/safer-buffer@1.0.44'
 
   iconv-lite@0.6.3:
     dependencies:
-      safer-buffer: '@nolyfill/safer-buffer@1.0.41'
+      safer-buffer: '@nolyfill/safer-buffer@1.0.44'
 
   ieee754@1.2.1: {}
 
@@ -11303,12 +11303,12 @@ snapshots:
     dependencies:
       buffer-equal-constant-time: 1.0.1
       ecdsa-sig-formatter: 1.0.11
-      safe-buffer: '@nolyfill/safe-buffer@1.0.41'
+      safe-buffer: '@nolyfill/safe-buffer@1.0.44'
 
   jws@4.0.0:
     dependencies:
       jwa: 2.0.0
-      safe-buffer: '@nolyfill/safe-buffer@1.0.41'
+      safe-buffer: '@nolyfill/safe-buffer@1.0.44'
 
   keyv@4.5.4:
     dependencies:
@@ -12338,7 +12338,7 @@ snapshots:
       oauth-sign: 0.9.0
       performance-now: 2.1.0
       qs: 6.5.3
-      safe-buffer: '@nolyfill/safe-buffer@1.0.41'
+      safe-buffer: '@nolyfill/safe-buffer@1.0.44'
       stream-length: 1.0.2
       uuid: 8.3.2
 
@@ -12500,7 +12500,7 @@ snapshots:
 
   qs@6.14.0:
     dependencies:
-      side-channel: '@nolyfill/side-channel@1.0.29'
+      side-channel: '@nolyfill/side-channel@1.0.44'
 
   qs@6.5.3: {}
 
@@ -12716,7 +12716,7 @@ snapshots:
       oauth-sign: 0.9.0
       performance-now: 2.1.0
       qs: 6.5.3
-      safe-buffer: '@nolyfill/safe-buffer@1.0.41'
+      safe-buffer: '@nolyfill/safe-buffer@1.0.44'
       tough-cookie: 2.5.0
       tunnel-agent: 0.6.0
       uuid: 3.4.0
@@ -12955,7 +12955,7 @@ snapshots:
       ecc-jsbn: 0.1.2
       getpass: 0.1.7
       jsbn: 0.1.1
-      safer-buffer: '@nolyfill/safer-buffer@1.0.41'
+      safer-buffer: '@nolyfill/safer-buffer@1.0.44'
       tweetnacl: 0.14.5
 
   stack-trace@0.0.10: {}
@@ -13011,7 +13011,7 @@ snapshots:
 
   string_decoder@1.3.0:
     dependencies:
-      safe-buffer: '@nolyfill/safe-buffer@1.0.41'
+      safe-buffer: '@nolyfill/safe-buffer@1.0.44'
 
   stringify-entities@4.0.4:
     dependencies:
@@ -13278,7 +13278,7 @@ snapshots:
 
   tunnel-agent@0.6.0:
     dependencies:
-      safe-buffer: '@nolyfill/safe-buffer@1.0.41'
+      safe-buffer: '@nolyfill/safe-buffer@1.0.44'
 
   turndown@7.2.0:
     dependencies:
@@ -13432,7 +13432,7 @@ snapshots:
 
   utility-types@3.11.0: {}
 
-  uuid@11.0.5: {}
+  uuid@11.1.0: {}
 
   uuid@3.4.0: {}
 
