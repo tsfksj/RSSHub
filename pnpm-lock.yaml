@@ -403,8 +403,8 @@ importers:
         specifier: 11.3.0
         version: 11.3.0
       globals:
-        specifier: 15.15.0
-        version: 15.15.0
+        specifier: 16.1.0
+        version: 16.1.0
       got:
         specifier: 14.4.7
         version: 14.4.7
@@ -3512,6 +3512,10 @@ packages:
 
   globals@15.15.0:
     resolution: {integrity: sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==}
+    engines: {node: '>=18'}
+
+  globals@16.1.0:
+    resolution: {integrity: sha512-aibexHNbb/jiUSObBgpHLj+sIuUmJnYcgXBlrfsiDZ9rt4aF2TFRbyLgZ2iFQuVZ1K5Mx3FVkbKRSgKrbK3K2g==}
     engines: {node: '>=18'}
 
   globrex@0.1.2:
@@ -9344,6 +9348,8 @@ snapshots:
   globals@14.0.0: {}
 
   globals@15.15.0: {}
+
+  globals@16.1.0: {}
 
   globrex@0.1.2: {}
 
