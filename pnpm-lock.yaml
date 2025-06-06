@@ -42,8 +42,8 @@ importers:
         specifier: 0.57.2
         version: 0.57.2(@opentelemetry/api@1.9.0)
       '@opentelemetry/resources':
-        specifier: 1.30.1
-        version: 1.30.1(@opentelemetry/api@1.9.0)
+        specifier: 2.0.1
+        version: 2.0.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-metrics':
         specifier: 1.30.1
         version: 1.30.1(@opentelemetry/api@1.9.0)
@@ -1627,6 +1627,12 @@ packages:
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
+  '@opentelemetry/core@2.0.1':
+    resolution: {integrity: sha512-MaZk9SJIDgo1peKevlbhP6+IwIiNPNmswNL4AF0WaQJLbHXjr9SrZMgS12+iqr9ToV4ZVosCcc0f8Rg67LXjxw==}
+    engines: {node: ^18.19.0 || >=20.6.0}
+    peerDependencies:
+      '@opentelemetry/api': '>=1.0.0 <1.10.0'
+
   '@opentelemetry/exporter-prometheus@0.57.2':
     resolution: {integrity: sha512-VqIqXnuxWMWE/1NatAGtB1PvsQipwxDcdG4RwA/umdBcW3/iOHp0uejvFHTRN2O78ZPged87ErJajyUBPUhlDQ==}
     engines: {node: '>=14'}
@@ -1656,6 +1662,12 @@ packages:
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
+
+  '@opentelemetry/resources@2.0.1':
+    resolution: {integrity: sha512-dZOB3R6zvBwDKnHDTB4X1xtMArB/d324VsbiPkX/Yu0Q8T2xceRthoIVFhJdvgVM2QhGVUyX9tzwiNxGtoBJUw==}
+    engines: {node: ^18.19.0 || >=20.6.0}
+    peerDependencies:
+      '@opentelemetry/api': '>=1.3.0 <1.10.0'
 
   '@opentelemetry/sdk-logs@0.57.2':
     resolution: {integrity: sha512-TXFHJ5c+BKggWbdEQ/inpgIzEmS2BGQowLE9UhsMd7YYlUfBQJ4uax0VF/B5NYigdM/75OoJGhAV3upEhK+3gg==}
@@ -7213,6 +7225,11 @@ snapshots:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/semantic-conventions': 1.28.0
 
+  '@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0)':
+    dependencies:
+      '@opentelemetry/api': 1.9.0
+      '@opentelemetry/semantic-conventions': 1.30.0
+
   '@opentelemetry/exporter-prometheus@0.57.2(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
@@ -7251,6 +7268,12 @@ snapshots:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.28.0
+
+  '@opentelemetry/resources@2.0.1(@opentelemetry/api@1.9.0)':
+    dependencies:
+      '@opentelemetry/api': 1.9.0
+      '@opentelemetry/core': 2.0.1(@opentelemetry/api@1.9.0)
+      '@opentelemetry/semantic-conventions': 1.30.0
 
   '@opentelemetry/sdk-logs@0.57.2(@opentelemetry/api@1.9.0)':
     dependencies:
